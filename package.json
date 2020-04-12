@@ -1,0 +1,27 @@
+{
+  "name": "open-teuxdeux",
+  "version": "1.0.0",
+  "description": "Open source JS-only web-app for managing your todos (inspired by teuxdeux.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kantegory/open-teuxdeux.git"
+  },
+  "author": "David Dobryakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kantegory/open-teuxdeux/issues"
+  },
+  "homepage": "https://github.com/kantegory/open-teuxdeux#readme",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5",
+    "passport": "^0.4.1"
+  },
+  "dependencies": {
+    "express-session": "^1.17.0"
+  }
+}
