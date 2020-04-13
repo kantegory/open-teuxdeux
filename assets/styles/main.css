@@ -131,3 +131,10 @@ span.to-do__del {
 .done:hover span.to-do__del {
 	visibility: visible;
 }
+
+.filler {
+	background: #e6e6e6;
+	width: 100%;
+	height: 30px;
+	margin: 2rem 0;
+}
