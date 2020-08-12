@@ -1,5 +1,40 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
 body > * {
 	font-family: Helvetica !important;
+}
+
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  height: 50px;
+  align-items: center
+}
+
+.navbar-dark > * {
+  color: #fff;
+}
+
+.navbar-brand {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+.mx-5 {
+	margin: 0 2.5rem;
+}
+
+.ml-auto {
+	margin-left: auto;
+}
+
+.list-unstyled {
+	list-style: none;
 }
 
 .bg-accent {
@@ -18,7 +53,7 @@ body > * {
 	background: #f7f7f7;
 	color: #000;
 	width: 100%;
-	max-width: 150px;
+	max-width: 145px;
 	padding: 0 !important;
 }
 
@@ -138,3 +173,4 @@ span.to-do__del {
 	height: 30px;
 	margin: 2rem 0;
 }
+
