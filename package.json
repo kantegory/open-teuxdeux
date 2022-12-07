@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/kantegory/open-teuxdeux#readme",
   "devDependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "ini": "^1.3.5",
     "mongodb": "^3.5.5",
     "passport": "^0.4.1"
